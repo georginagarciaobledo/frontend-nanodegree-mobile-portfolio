@@ -1,3 +1,17 @@
+This is a simple page that I optimized as an assignment for the Udacity Front-End Nanodegree.
+
+You can access the webpage here: https://georginagarciaobledo.github.io/website-optimization-project-FEND/
+
+What I did to optimize this page: 
+1. Compress profile picture and pizzeria jpg images. I used compression apps first, but that wasn't enough. Then, I resized the images based on the number of pixels they took up on the page. This brought my Google PageSpeed Insights Score above 90 for both mobile and desktop.
+2.  Inline CSS style. The printstyle.css file is still separate, but everything else is now in index.html.
+3. 
+
+
+
+---
+PROJECT INSTRUCTIONS: 
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
